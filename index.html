@@ -29,6 +29,7 @@
 
         img{
             width: 319px;
+            margin-left: 20px;
         }
         button{
             width: 100px;
@@ -42,9 +43,19 @@
         .navigation{
             display: flex;
             justify-content: left;
+            flex-direction: column;
+            gap: 15px;
             
-            margin-left: -25px;
             border-color: 2px solid white;
+        }
+        .navigation button{
+            width: 300px;
+            height: 40px;
+            margin-left: 30px;
+            background-color: #A91A1A;
+            color: white;
+            border: none;
+            
         }
         }
     </style>
@@ -56,10 +67,10 @@
     
     
     <div class="navigation">    
-        <button src="https://docs.google.com/forms/d/e/1FAIpQLSdi6aXn6rq6tgdupMLHw6redqSAjZS1cZ3BpRu-kLosVUNRiw/viewform?usp=sf_link">Order Now </button>
-        <button src="https://www.google.com/maps/place/Tanu's+Kitchen/@22.2896478,73.2103648,17z/data=!3m1!4b1!4m6!3m5!1s0x395fc53088ac5ff1:0x7c3ef0b9d8761388!8m2!3d22.2896478!4d73.2103648!16s%2Fg%2F11w3x2gnbv?entry=ttu">Share Reviews</button>
-        <button src="https://www.google.com/maps/place/Tanu's+Kitchen/@22.2896478,73.2103648,15z/data=!4m2!3m1!1s0x0:0x7c3ef0b9d8761388?sa=X&ved=1t:2428&ictx=111">Locate Us</button> </div>
         
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdi6aXn6rq6tgdupMLHw6redqSAjZS1cZ3BpRu-kLosVUNRiw/viewform?usp=sf_link"><button>Order Now</button></a>
+        <a href="https://www.google.com/maps/place/Tanu's+Kitchen/@22.2896478,73.2103648,17z/data=!3m1!4b1!4m6!3m5!1s0x395fc53088ac5ff1:0x7c3ef0b9d8761388!8m2!3d22.2896478!4d73.2103648!16s%2Fg%2F11w3x2gnbv?entry=ttu"><button> Share Review </button></a>
+        <a href=" https://www.google.com/maps/place/Tanu's+Kitchen/@22.2896478,73.2103648,15z/data=!4m2!3m1!1s0x0:0x7c3ef0b9d8761388?sa=X&ved=1t:2428&ictx=111"><button>Get Direction</button></a>
     </div>
 
     
